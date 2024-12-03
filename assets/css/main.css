@@ -1,0 +1,85 @@
+main {
+  padding: 20px;
+  max-width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.section__p-perfume {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+}
+
+h1 {
+  font-family: var(--Important-Text);
+  font-weight: var(--w-700);
+  font-size: 2.2rem;
+  color: var(--Very-dark-blue);
+}
+
+.main__section-desc {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.section__p-desc {
+  font-size: 0.8rem;
+  word-wrap: balance;
+  line-height: 20px;
+}
+
+.main__section-prices {
+  width: 100%;
+}
+
+.section-prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.section__p-newprice {
+  font-family: var(--Important-Text);
+  font-weight: var(--w-700);
+  color: var(--Dark-cyan);
+  font-size: 1.8rem;
+}
+
+.section__p-oldprice {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  color: var(--White);
+  background-color: var(--Dark-cyan);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  gap: 10px;
+  font-weight: var(--w-700);
+  font-size: 0.755rem;
+}
+
+button:hover {
+  background-color: hsl(158, 46%, 20%);
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 14rem;
+  }
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  --w-500: 500;
+  --w-700: 700;
+
+  --Normal-Text: "Montserrat";
+  --Important-Text: "Fraunces";
+}
+
+body {
+  display: flex;
+  font-family: var(--Normal-Text);
+  background-color: var(--Cream);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: var(--w-500);
+  color: var(--Dark-grayish-blue);
+}
+
+.container {
+  background-color: var(--White);
+  max-width: 22rem;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    margin: 0;
+  }
+}
